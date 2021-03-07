@@ -95,7 +95,7 @@ def process_message(msg):
                     # put binance sell logic here
                     #order_succeeded = order(SIDE_SELL, TRADE_QUANTITY, TRADE_SYMBOL)
                     #if order_succeeded:
-                      #  in_position = False
+                    in_position = False
 
                 else:
                     print("It is overbought, but we don't own any. Nothing to do.")
@@ -115,7 +115,7 @@ def process_message(msg):
                     # put binance buy order logic here
                     #order_succeeded = order(SIDE_BUY, TRADE_QUANTITY, TRADE_SYMBOL)
                     #if order_succeeded:
-                    #    in_position = True
+                    in_position = True
 
 
 
